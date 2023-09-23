@@ -220,6 +220,7 @@ h1 {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 100px;
+	background: #FAFAFA;
 }
 
 .fourth_title {
@@ -267,9 +268,9 @@ h1 {
 	background: #FFF;
 }
 
-/* .card2 {
+.card2 {
 	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
-} */
+}
 
 .fourth_card:hover {
 	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.30);
