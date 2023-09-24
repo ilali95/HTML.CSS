@@ -16,6 +16,12 @@ h1 {
 	margin-right: auto;
 }
 
+.center1170 {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .header {
 	display: flex;
 	align-items: center;
@@ -171,7 +177,16 @@ h1 {
 }
 
 .third_block_item {
-	padding: 100px 0;
+	padding: 100px 20px;
+	cursor: pointer;
+}
+
+.item2 {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.third_block_item:hover {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.30);
 }
 
 .third_block_item_icon {
@@ -219,7 +234,8 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background: #FAFAFA;
 }
 
@@ -251,21 +267,21 @@ h1 {
 	margin-top: 19px;
 }
 
+.container {
+	background: #FAFAFA;
+}
+
 .fourth_block_cards {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 30px;
 	margin-top: 55px;
-	margin-bottom: 100px;
 }
 
 .fourth_card {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 30px;
 	background: #FFF;
+	cursor: pointer;
 }
 
 .card2 {
@@ -280,6 +296,13 @@ h1 {
 	width: 385px;
 	height: 289px;
 	flex-shrink: 0;
+}
+
+.fourth_card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 30px 50px;
 }
 
 .card_title {
@@ -301,7 +324,6 @@ h1 {
 	line-height: 150%;
 	margin-top: 22px;
 	max-width: 310px;
-	/* 22.5px */
 }
 
 .card_batton {
