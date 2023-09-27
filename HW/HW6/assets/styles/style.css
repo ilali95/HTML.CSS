@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #FFF;
-	font-family: Lato;
+	font-family: 'Lato';
 }
 
 h1 {
@@ -71,7 +71,6 @@ h1 {
 	gap: 16px;
 }
 
-
 .intro_right_logo {}
 
 .right_title {
@@ -96,7 +95,7 @@ h1 {
 	color: #222;
 	font-size: 32px;
 	font-weight: 700;
-	gap: 20px;
+	grid-gap: 20px;
 }
 
 .right_title_title3 {
@@ -216,18 +215,19 @@ h1 {
 
 }
 
-.cards_img {
-	background: #f7e4e2;
+.block_card-content_top {
+	display: flex;
+	justify-content: center;
 	width: 360px;
 	height: 420px;
 	flex-shrink: 0;
+	background: #f7e4e2;
 }
 
 .card_img {
-	max-width: 360px;
-	height: 420px;
-	flex-shrink: 0;
+
 }
+
 
 .block_card-content {
 	display: flex;
@@ -248,7 +248,6 @@ h1 {
 }
 
 .card_txt {
-	width: 314.743px;
 	color: #5D5D5D;
 	font-size: 14px;
 	font-style: normal;
@@ -276,7 +275,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 0.2mm solid #FF6A6A;
+	border: 0.1mm solid #FF6A6A;
 	width: 212px;
 	height: 48px;
 	flex-shrink: 0;
