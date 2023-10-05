@@ -368,3 +368,38 @@ h1 {
 	font-weight: 400;
 	line-height: normal;
 }
+
+/* screen 768-1024. */
+
+@media screen and (max-width: 768px) {
+
+	.center1140 {
+		max-width: 734.581px;
+	}
+
+	.header_content {
+		gap: 42px;
+	}
+
+	.header_content_left {
+		gap: 424px;
+	}
+
+	.img1 {
+		width: 386px;
+		height: 368px;
+	}
+	.right-title__title1{
+		font-size: 44px;
+	}
+	.right-title__title2{
+		font-size: 24px;
+	}
+	.right-title__title3{
+		font-size: 24px;
+	}
+
+	.feature_block_cards{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
