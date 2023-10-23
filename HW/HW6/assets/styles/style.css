@@ -87,6 +87,7 @@ h1 {
 }
 
 .intro {
+	width: 100%;
 	background: #f1e4e6;
 }
 
@@ -239,7 +240,6 @@ h1 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 .block_card-content_top {
@@ -248,7 +248,7 @@ h1 {
 	justify-content: center;
 	width: 360px;
 	height: 420px;
-	background: #f7e4e2;
+	background-color: #F3EEEF;
 }
 
 .block_card-content_top:hover::after {
@@ -481,6 +481,7 @@ h1 {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	width: 100%;
 }
 
 .subscribe__button {
@@ -489,7 +490,7 @@ h1 {
 	border-bottom-right-radius: 50px;
 	background-color: #E05C6E;
 	padding: 7px 7px 6px 8px;
-
+	width: 71.7%;
 	color: #FFF;
 	text-align: center;
 	font-family: Lato;
@@ -669,7 +670,6 @@ h1 {
 	.intro {
 		display: flex;
 		align-items: center;
-		width: 100vw;
 		height: 363px;
 		flex-shrink: 0;
 	}
@@ -704,6 +704,7 @@ h1 {
 
 	.cont4 {
 		grid-column: span 1;
+		height: 111px;
 	}
 
 	.frame {
