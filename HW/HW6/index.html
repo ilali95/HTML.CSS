@@ -21,20 +21,45 @@
 					<div class="header_logo logo2"><img src="./assets/images/logos/Forma 1.svg" alt=""></div>
 				</div>
 			</div>
+
 			<div class="header_buttons">
-				<div class="header_button button1">
+				<div class="burger">
 					<img src="./assets/images/icon/menu_icon1.svg" alt="">
 				</div>
-				<div class="header_button button2">
+				<div class="header_button">
 					<img src="./assets/images/icon/menu_icon2.svg" alt="">
 				</div>
 				<div class="header_buttons-basket">
 					<img src="./assets/images/icon/menu_icon3.svg" alt="">
 				</div>
-			</div>	
+			</div>
 		</div>
 	</header>
 	<section class="intro">
+		<nav class="nav ">
+			<div class="nav_title">MENU</div>
+			<ul class="ul">MAN
+				<li class="li"><a href="#">Accessories</a></li>
+				<li class="li"><a href="#">Bags</a></li>
+				<li class="li"><a href="#">Denim</a></li>
+				<li class="li"><a href="#">T-Shirts</a></li>
+			</ul>
+			<ul class="ul">WOMAN
+				<li class="li"><a href="#">Accessories</a></li>
+				<li class="li"><a href="#">Jackets & Coats</a></li>
+				<li class="li"><a href="#">Polos</a></li>
+				<li class="li"><a href="#">T-Shirts</a></li>
+				<li class="li"><a href="#">Shirts</a></li>
+			</ul>
+			<ul class="ul">KIDS
+				<li class="li"><a href="#">Accessories</a></li>
+				<li class="li"><a href="#">Jackets & Coats</a></li>
+				<li class="li"><a href="#">Polos</a></li>
+				<li class="li"><a href="#">T-Shirts</a></li>
+				<li class="li"><a href="#">Shirts</a></li>
+				<li class="li"><a href="#">Bags</a></li>
+			</ul>
+		</nav>
 		<div class="intro_top">
 			<div class="intro_left">
 				<img class="left_img img1" src="./assets/images/Layer_57-removebg-preview 1.png" alt="">
@@ -281,7 +306,7 @@
 
 
 	</section>
-	
+
 	<footer class="footer center">
 		<div class="footer_content center1140">
 			<div class="footer_txt">
@@ -383,6 +408,19 @@
 		</div>
 
 	</footer>
+
+	<script>
+
+		const burger = document.querySelector('.burger');
+		const nav = document.querySelector('.nav');
+
+		burger.addEventListener('click', () => {
+			nav.classList.toggle('active');
+			nav.style.top = 0;
+			nav.style.position = 'absolute';
+			nav.style.boxShadow = '0 1px 2px rgba(0, 0, 0, 0.2)';
+		});
+	</script>
 </body>
 
 </html>
